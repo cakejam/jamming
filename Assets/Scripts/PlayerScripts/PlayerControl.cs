@@ -4,10 +4,10 @@ using System.Collections;
 public class PlayerControl : MonoBehaviour
 {
 
-	public float walkSpeed = 0.15f;
-	public float runSpeed = 1.0f;
-	public float sprintSpeed = 2.0f;
-	public float flySpeed = 4.0f;
+	public float walkSpeed = 1.5f;
+	public float runSpeed = 3.0f;
+	public float sprintSpeed = 7.0f;
+	public float flySpeed = 5.0f;
 
 	public float turnSmoothing = 3.0f;
 	public float aimTurnSmoothing = 15.0f;
