@@ -1,0 +1,17 @@
+Scene Controls
+
+Movements
+
+Navigation:   Arrow Keys/WASD
+Move Up:   "E"
+Move Down:   "Q"
+Eye View:   Left Mouse Button
+Drag:   Middle Mouse Button (Scroll)
+Zoom In/Out:   Mouse Scroll
+Fly To Point Of Interest:   "1"
+Exit Fly Mode:   "Esc"
+
+
+Scene Manager
+
+Clouds On/Off:   "C"

@@ -1,0 +1,50 @@
+ Q:    There Are No Buttons And Graphics In GUI.
+
+A:    When You Download & Open The ".unitypackage" File, Unity Will Automatically Import Needed Plugin Files In Your Project Under "Resources => TerraUnity" Folder. If These Files Have Been Removed Accidentally, Just Reopen Or Double Click The Downloaded ".unitypackage" File To Reimport Removed GUI Files.
+
+
+Q:    Unity Crashes When Placing Large Number Of Trees.
+
+A:    You Can Easily Turn Off Trees In "VEGETATION PREVIEW" From TerraTrees GUI And Then Place As Many As Trees You Like, Then You Can Turn The Trees On Again To See The Placement.
+
+This Issue Is GPU Memory Related When Trying To Render Large Number Of Polygons And Specially Terrain Changes Flushing In Real Time.
+
+
+Q:    Can I Place Multiple Vegetation Models And Trees At The Same Time?
+
+A:    Yes, When You Have More Than 1 Vegetation Model Available In Terrain System, A New Option Called "COLLECTION TREES" Will Be Available For You In TerraTrees GUI. You Must Enable This Option By Expanding It And From There You Can Select Which Trees From Terrain System Must Be Placed At The Same Time With "Priority" Option. By Default "USE ALL TREES" Option Is Checked To place All Availabe Terrain Trees Simultaneously On Terrain.
+
+
+Q:    When I Press "PLACE TREES", No Trees Are Placing Or There Are A Very Small Number Of Them Placed.
+
+A-1:    Check "PLACEMENT DENSITY" In TerraTrees GUI. The Higher This Percentage Number Is, More Trees Are Going To Place.
+
+A-2:    Check "MAXIMUM TREES No." If It's Not Set To Zero Or A Low Value.
+
+A-3:    In "INTELLIGENT TREES" Mode, Check Satellite Image To have Green Colors In It.
+
+A-4:    In "MAPPING TREES" Mode, Make Sure To Select An Available Color By "COLOR PICKER" From Tree-Map. If Desired Placement Area In Map Contains A Color Range Of A Unique Color-Family (For Example 2 Blue Colors Which Are Slightly Different From Each Other), Try To Increase The Value Of "DAMPING" Feature.
+
+A-5:    In "ENVIRONMENT SETTINGS", Check If "Steepness Range" Min & Max Values Are Not Too High Or Too low And Also They Are Not So Close To Each Other.
+
+A-6:    In "ENVIRONMENT SETTINGS", Check If "Elevation Range" Min & Max Values Are Not Too High Or Too low And Also They Are Not So Close To Each Other.
+
+
+Q:    TerraTrees Progress Shows Trees Are Placing, But When The Placement Finishes I Can't See Any Trees On Terrain.
+
+A-1:    Make Sure The Imported Vegetation Model Is Not Too Small In Unity's "Importer Settings".
+
+A-2:    In TerraTrees "TREES VARIATION", Check If "SCALE" Values In "Width" & "Height" Are Not Too Small. This Value Is The Initial Scale Of The Placing Vegetation Models.
+
+A-3:    In Terrain Engine "Other Settings", Make Sure That "Draw" Checkbox Is Enabled. In TerraTrees "VEGETATION PREVIEW", Check If "TREES" Are Turned On Or Other Options Values Are Not Too Small.
+
+
+Q:    How Can I Switch Between TerraTrees Placement Modes Of "INTELLIGENT TREES", "MAPPING TREES" And "NORMAL TREES"?
+
+A:    By Default When TerraTrees Loads, "INTELLIGENT TREES" Mode Is Active. Switch Between "INTELLIGENT TREES" & "MAPPING TREES" Modes By Expanding/Contracting "MODE SWITCH" From GUI. To Activate "NORMAL TREES" Mode, Go To "SETTINGS" At The Bottom Of The GUI And Check "Normal Tree Placement On Entire Terrain".
+
+
+Q:    Can TerraTrees Place Vegetation Models And Trees On A Non-Terrain Object Or Geometry?
+
+A:    No, TerraTrees Needs A Terrain To Place Tree Models Over It. Obviously, This Has Great Advantages In Performance & Visuals To Use Terrain Engine's Tree Manager Settings.
+
