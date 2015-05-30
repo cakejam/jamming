@@ -1,0 +1,5 @@
+All default files included in "TerraUnity" under "Resources" folder are for Plugins graphics and functionalities that comes with TerraUnity product packages.
+Don't Remove, Replace or Rename them.
+
+
+Copyright © All Rights Reserved. - TerraUnity Co.
