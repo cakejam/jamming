@@ -38,14 +38,14 @@ class TiltShiftEditor extends Editor
     	if (!go)
     		return;
     		
-    	if (!go.GetComponent.<Camera>())
+    	if (!go.camera)
     		return;
     		    		
-		GUILayout.Label ("Current: "+go.GetComponent.<Camera>().name+", near "+go.GetComponent.<Camera>().nearClipPlane+", far: "+go.GetComponent.<Camera>().farClipPlane+", focal: "+focalPoint.floatValue, EditorStyles.miniBoldLabel);
+		GUILayout.Label ("Current: "+go.camera.name+", near "+go.camera.nearClipPlane+", far: "+go.camera.farClipPlane+", focal: "+focalPoint.floatValue, EditorStyles.miniBoldLabel);
     	    	
     	GUILayout.Label ("Focal Settings", EditorStyles.boldLabel);    	
 		EditorGUILayout.PropertyField (visualizeCoc, new GUIContent("Visualize"));  		
-   		focalPoint.floatValue = EditorGUILayout.Slider ("Distance", focalPoint.floatValue, go.GetComponent.<Camera>().nearClipPlane, go.GetComponent.<Camera>().farClipPlane);
+   		focalPoint.floatValue = EditorGUILayout.Slider ("Distance", focalPoint.floatValue, go.camera.nearClipPlane, go.camera.farClipPlane);
    		EditorGUILayout.PropertyField (smoothness, new GUIContent("Smoothness"));
    		
    		EditorGUILayout.Separator ();
