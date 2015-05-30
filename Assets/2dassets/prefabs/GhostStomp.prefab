@@ -12,7 +12,7 @@ GameObject:
   - 95: {fileID: 9544124}
   - 50: {fileID: 5007252}
   - 61: {fileID: 6191850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GhostStomp
   m_TagString: Untagged
   m_Icon: {fileID: 0}

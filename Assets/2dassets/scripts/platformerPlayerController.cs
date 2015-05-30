@@ -91,25 +91,30 @@ public class platformerPlayerController : MonoBehaviour {
 	void LoseHealth()
 	{
 		health--;
-		Debug.Log ("Healthtext " + healthText.GetComponent<Text>());
-//		Debug.Log ("Healthtext2 " + healthText.GetComponent<Text>().text);
 		healthText.GetComponent<Text>().text = "Health: " + health;
 		if (health <= 0) {
-			Debug.Log ("Gameover");
 			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
-			StartCoroutine(WaitAndRestart());         
-			
+			GameOver();
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D col) {
-		if (col.gameObject.layer == LayerMask.NameToLayer("Deadly")) {
-			Debug.Log ("Deadly!");
+	void GameOver() {
+		Debug.Log ("Gameover");
+		StartCoroutine(WaitAndRestart()); 
+	}
 
+	void OnCollisionEnter2D(Collision2D col) {
+		if (col.gameObject.layer == LayerMask.NameToLayer("Painful")) {
+			Debug.Log ("Deadly!");
 			Vector2 diff = (transform.position - col.gameObject.transform.position).normalized * bounceForce;
 			rb2d.AddForce(new Vector2(diff.x, diff.y) , ForceMode2D.Impulse);
 
 			LoseHealth();
+		}
+		else if (col.gameObject.layer == LayerMask.NameToLayer("Deadly")) {
+			Debug.Log ("Deadly!");
+			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
+			GameOver();
 		}
 	}
 
