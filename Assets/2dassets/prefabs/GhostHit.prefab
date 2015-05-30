@@ -12,7 +12,7 @@ GameObject:
   - 95: {fileID: 9592510}
   - 50: {fileID: 5087694}
   - 61: {fileID: 6198724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GhostHit
   m_TagString: Untagged
   m_Icon: {fileID: 0}

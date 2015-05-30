@@ -12,7 +12,7 @@ GameObject:
   - 95: {fileID: 9508760}
   - 50: {fileID: 5079694}
   - 61: {fileID: 6191524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GhostSmash
   m_TagString: Untagged
   m_Icon: {fileID: 0}

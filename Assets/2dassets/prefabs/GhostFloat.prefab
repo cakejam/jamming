@@ -13,7 +13,7 @@ GameObject:
   - 50: {fileID: 5032194}
   - 61: {fileID: 6152158}
   - 114: {fileID: 11487272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GhostFloat
   m_TagString: Untagged
   m_Icon: {fileID: 0}

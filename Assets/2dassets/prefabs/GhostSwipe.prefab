@@ -12,7 +12,7 @@ GameObject:
   - 95: {fileID: 9530094}
   - 61: {fileID: 6117374}
   - 50: {fileID: 5021986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GhostSwipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}

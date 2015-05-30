@@ -12,7 +12,7 @@ GameObject:
   - 95: {fileID: 9525434}
   - 50: {fileID: 5031678}
   - 61: {fileID: 6169422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GhostDefeat
   m_TagString: Untagged
   m_Icon: {fileID: 0}

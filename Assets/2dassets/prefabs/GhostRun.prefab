@@ -12,8 +12,8 @@ GameObject:
   - 95: {fileID: 9531500}
   - 50: {fileID: 5027724}
   - 61: {fileID: 6198788}
-  - 114: {fileID: 11445902}
-  m_Layer: 0
+  - 114: {fileID: 11465220}
+  m_Layer: 8
   m_Name: GhostRun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,8 +27,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.1299992, y: -6.63999987, z: 0}
-  m_LocalScale: {x: 5.12892675, y: 5.12892818, z: 5.12892818}
+  m_LocalPosition: {x: 33.4099998, y: -6.73999977, z: 0}
+  m_LocalScale: {x: 4.01184845, y: 4.01184893, z: 4.01184893}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -77,7 +77,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11445902
+--- !u!114 &11465220
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 174894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641e7b85cdf5c994fa044f201d88c51e, type: 3}
+  m_Script: {fileID: 11500000, guid: b05861964f814cc4d80369a446d09bfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &21225580
