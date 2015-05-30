@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerControl : MonoBehaviour
 {
 
-	public float walkSpeed = 1.5f;
+	public float walkSpeed = 3.0f;
 	public float runSpeed = 3.0f;
 	public float sprintSpeed = 7.0f;
 	public float flySpeed = 5.0f;
