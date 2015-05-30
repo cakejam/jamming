@@ -32,14 +32,10 @@ public class platformerPlayerController : MonoBehaviour {
 	{ 
 		if (Input.GetButtonDown("Jump"))
 		{
-			Debug.Log ("jump press");
-			float distanceAboveGround = 5.0f; // When the player is 5 units vertically above ground, hit.collider != null.
 			RaycastHit2D hit;
-			LayerMask layermask = 1 << LayerMask.NameToLayer("Ground"); // Add a layer mask via inspector if you want
 			hit = Physics2D.Raycast(groundCheck.position, -Vector2.up, 0.1f);
-			Debug.DrawLine(groundCheck.position, new Vector3(0, 0, -20.1f), Color.white);
 			if(hit.collider != null) {
-				Debug.Log ("what the " + hit.collider.name);
+				Debug.Log ("jumping off " + hit.collider.name);
 				jump = true;
 			}
 		}
