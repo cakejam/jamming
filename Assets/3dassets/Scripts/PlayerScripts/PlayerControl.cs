@@ -116,7 +116,7 @@ public class PlayerControl : MonoBehaviour
 			if(timeToNextJump > 0)
 				timeToNextJump -= Time.deltaTime;
 		}
-		if (Input.GetButtonDown ("Jump"))
+		if (Input.GetButtonDown ("Jump") && !Input.GetKeyDown (KeyCode.W))
 		{
 			anim.SetBool(jumpBool, true);
 			if(speed > 0 && timeToNextJump <= 0 && !aim)
