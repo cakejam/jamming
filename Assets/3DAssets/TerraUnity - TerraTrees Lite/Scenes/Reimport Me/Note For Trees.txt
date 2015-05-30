@@ -1,3 +1,0 @@
-In order to have better rendering of trees and billboards, you need to reimport these shaders to overwrite Unity's built-in tree shaders.
-
-ATS V.2
