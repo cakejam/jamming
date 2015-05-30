@@ -1,0 +1,759 @@
+fileFormatVersion: 2
+guid: fa2ca129bcb4f45e680ad37c170ffbbf
+timeCreated: 1433001109
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mariolava_0
+    21300002: mariolava_1
+    21300004: mariolava_2
+    21300006: mariolava_3
+    21300008: mariolava_4
+    21300010: mariolava_5
+    21300012: mariolava_6
+    21300014: mariolava_7
+    21300016: mariolava_8
+    21300018: mariolava_9
+    21300020: mariolava_10
+    21300022: mariolava_11
+    21300024: mariolava_12
+    21300026: mariolava_13
+    21300028: mariolava_14
+    21300030: mariolava_15
+    21300032: mariolava_16
+    21300034: mariolava_17
+    21300036: mariolava_18
+    21300038: mariolava_19
+    21300040: mariolava_20
+    21300042: mariolava_21
+    21300044: mariolava_22
+    21300046: mariolava_23
+    21300048: mariolava_24
+    21300050: mariolava_25
+    21300052: mariolava_26
+    21300054: mariolava_27
+    21300056: mariolava_28
+    21300058: mariolava_29
+    21300060: mariolava_30
+    21300062: mariolava_31
+    21300064: mariolava_32
+    21300066: mariolava_33
+    21300068: mariolava_34
+    21300070: mariolava_35
+    21300072: mariolava_36
+    21300074: mariolava_37
+    21300076: mariolava_38
+    21300078: mariolava_39
+    21300080: mariolava_40
+    21300082: mariolava_41
+    21300084: mariolava_42
+    21300086: mariolava_43
+    21300088: mariolava_44
+    21300090: mariolava_45
+    21300092: mariolava_46
+    21300094: mariolava_47
+    21300096: mariolava_48
+    21300098: mariolava_49
+    21300100: mariolava_50
+    21300102: mariolava_51
+    21300104: mariolava_52
+    21300106: mariolava_53
+    21300108: mariolava_54
+    21300110: mariolava_55
+    21300112: mariolava_56
+    21300114: mariolava_57
+    21300116: mariolava_58
+    21300118: mariolava_59
+    21300120: mariolava_60
+    21300122: mariolava_61
+    21300124: mariolava_62
+    21300126: mariolava_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mariolava_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 618
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 618
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 618
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 618
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 577
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 577
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 577
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 577
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 536
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 536
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 536
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 495
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 495
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 495
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 454
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 454
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 454
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 454
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 413
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 413
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 413
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 372
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 372
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 372
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 331
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 331
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 331
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 290
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 290
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 290
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 249
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 249
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 249
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 167
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 167
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 167
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 126
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 126
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 85
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 85
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 44
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 44
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mariolava_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
