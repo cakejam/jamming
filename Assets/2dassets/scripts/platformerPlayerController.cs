@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class platformerPlayerController : MonoBehaviour {
@@ -6,25 +7,28 @@ public class platformerPlayerController : MonoBehaviour {
 	[HideInInspector] public bool facingRight = true;
 	[HideInInspector] public bool jump = false;
 	[HideInInspector] public bool frozen = false;
+	public int maxHealth = 3;
+	public int health = 3;
 	public float moveForce = 365f;
+	public float bounceForce = 365f;
 	public float maxSpeed = 5f;
 	public float jumpForce = 100f;
 	public Transform groundCheck;
 	Vector3 startPoint;
 	
-	private bool grounded = false;
 	private Animator anim;
 	private Rigidbody2D rb2d;
 
+	public Text healthText;
 	public GameObject explosionPrefab;
-	
-	
+
 	// Use this for initialization
 	void Awake () 
 	{
 		anim = GetComponent<Animator>();
 		rb2d = GetComponent<Rigidbody2D>();
 		startPoint = this.transform.position;
+		health = maxHealth;
 	}
 	
 	// Update is called once per frame
@@ -32,14 +36,10 @@ public class platformerPlayerController : MonoBehaviour {
 	{ 
 		if (Input.GetButtonDown("Jump"))
 		{
-			Debug.Log ("jump press");
-			float distanceAboveGround = 5.0f; // When the player is 5 units vertically above ground, hit.collider != null.
 			RaycastHit2D hit;
-			LayerMask layermask = 1 << LayerMask.NameToLayer("Ground"); // Add a layer mask via inspector if you want
 			hit = Physics2D.Raycast(groundCheck.position, -Vector2.up, 0.1f);
-			Debug.DrawLine(groundCheck.position, new Vector3(0, 0, -20.1f), Color.white);
 			if(hit.collider != null) {
-				Debug.Log ("what the " + hit.collider.name);
+				Debug.Log ("jumping off " + hit.collider.name);
 				jump = true;
 			}
 		}
@@ -88,11 +88,28 @@ public class platformerPlayerController : MonoBehaviour {
 		transform.localScale = theScale;
 	}
 
+	void LoseHealth()
+	{
+		health--;
+		Debug.Log ("Healthtext " + healthText.GetComponent<Text>());
+//		Debug.Log ("Healthtext2 " + healthText.GetComponent<Text>().text);
+		healthText.GetComponent<Text>().text = "Health: " + health;
+		if (health <= 0) {
+			Debug.Log ("Gameover");
+			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
+			StartCoroutine(WaitAndRestart());         
+			
+		}
+	}
+
 	void OnCollisionEnter2D(Collision2D col) {
 		if (col.gameObject.layer == LayerMask.NameToLayer("Deadly")) {
 			Debug.Log ("Deadly!");
-			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
-			StartCoroutine(WaitAndRestart());         
+
+			Vector2 diff = (transform.position - col.gameObject.transform.position).normalized * bounceForce;
+			rb2d.AddForce(new Vector2(diff.x, diff.y) , ForceMode2D.Impulse);
+
+			LoseHealth();
 		}
 	}
 
@@ -101,9 +118,7 @@ public class platformerPlayerController : MonoBehaviour {
 		Hide ();
 		Freeze();
 		yield return new WaitForSeconds(1);
-		ResetPosition();
-		Show ();
-		UnFreeze();
+		Application.LoadLevel(Application.loadedLevel);
 	}
 
 	void ResetPosition() {
