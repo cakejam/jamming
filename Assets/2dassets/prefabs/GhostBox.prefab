@@ -11,7 +11,6 @@ GameObject:
   - 212: {fileID: 21291726}
   - 95: {fileID: 9548376}
   - 61: {fileID: 6174704}
-  - 50: {fileID: 5085532}
   - 114: {fileID: 11467064}
   m_Layer: 8
   m_Name: GhostBox
@@ -27,26 +26,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 178368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 108.190002, y: .99000001, z: -3}
+  m_LocalPosition: {x: -120.919998, y: -.610000014, z: 1.33000004}
   m_LocalScale: {x: 3.64596987, y: 3.64596891, z: 3.64596891}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &5085532
-Rigidbody2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 178368}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_FixedAngle: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &6174704
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -114,7 +98,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300036, guid: 0126c1e5e71f6a1469d2953c2e7625ce, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: .82765758, g: .499567479, b: .970588207, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
