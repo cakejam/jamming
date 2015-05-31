@@ -93,7 +93,7 @@ public class PlayerControl : MonoBehaviour
 
 	void OnCollisionEnter(Collision coll){
 		if (coll.gameObject.CompareTag ("WayPointDoor")){
-			Application.LoadLevel(1);
+			Application.LoadLevel(2);
 		}
 	}
 

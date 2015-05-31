@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ThirdPersonControlOrbitCam.unity
   - enabled: 1
+    path: Assets/2dassets/scenes/menuScene.unity
+  - enabled: 1
     path: Assets/3dassets/Scenes/OpeningScene.unity
   - enabled: 1
     path: Assets/2dassets/scenes/Hallway_Christine.unity
