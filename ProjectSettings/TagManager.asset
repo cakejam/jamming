@@ -8,7 +8,7 @@ TagManager:
   - enemy
   - heal
   - ExtraLevel
-  - mover
+  - Potato
   layers:
   - Default
   - TransparentFX

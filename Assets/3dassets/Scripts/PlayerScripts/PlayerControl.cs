@@ -99,7 +99,7 @@ public class PlayerControl : MonoBehaviour
 		}
 
 		if (coll.gameObject.CompareTag("ExtraLevel")){
-			Application.LoadLevel (4);
+			Application.LoadLevel (5);
 		}
 	}
 

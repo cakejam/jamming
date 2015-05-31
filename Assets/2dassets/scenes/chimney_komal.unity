@@ -1594,7 +1594,7 @@ GameObject:
   - 61: {fileID: 283812310}
   m_Layer: 0
   m_Name: cutepotato
-  m_TagString: WayPointDoor
+  m_TagString: Potato
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4061,11 +4061,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 459362, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.55000019
+      value: .400000006
       objectReference: {fileID: 0}
     - target: {fileID: 459362, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 59.8899994
+      value: .600000024
       objectReference: {fileID: 0}
     - target: {fileID: 459362, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4095,6 +4095,14 @@ Prefab:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 989603847}
+    - target: {fileID: 11464148, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11464148, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
+      propertyPath: health
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
   m_IsPrefabParent: 0

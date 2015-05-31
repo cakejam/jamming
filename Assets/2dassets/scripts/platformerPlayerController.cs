@@ -159,7 +159,6 @@ public class platformerPlayerController : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D col) {
-		mover = false;
 		if (col.gameObject.layer == LayerMask.NameToLayer ("Painful")) {
 			Debug.Log ("Deadly!");
 			Vector2 diff = (transform.position - col.gameObject.transform.position).normalized * bounceForce;
@@ -175,10 +174,9 @@ public class platformerPlayerController : MonoBehaviour {
 			GainHealth ();
 		} else if (col.gameObject.CompareTag ("Finish")) {
 			Application.LoadLevel (3);
-		} else if (col.gameObject.CompareTag ("mover")) {
-			mover = true;
-			activePlatform = col.gameObject.transform;
-			Debug.Log("mover");
+		} 
+		else if (col.gameObject.CompareTag("Potato")){
+			Application.LoadLevel(4);
 		}
 	}
 
