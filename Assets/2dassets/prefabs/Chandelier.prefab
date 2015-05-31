@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 412602}
   - 212: {fileID: 21233470}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chandelier
   m_TagString: Untagged
   m_Icon: {fileID: 0}

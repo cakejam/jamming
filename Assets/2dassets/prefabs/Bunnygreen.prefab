@@ -13,7 +13,7 @@ GameObject:
   - 61: {fileID: 6163196}
   - 50: {fileID: 5003442}
   - 114: {fileID: 11473318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bunnygreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
