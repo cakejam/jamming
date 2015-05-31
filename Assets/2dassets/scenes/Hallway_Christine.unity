@@ -6354,6 +6354,10 @@ Prefab:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 517264295}
+    - target: {fileID: 11464148, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
+      propertyPath: jumpForce
+      value: 400
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
   m_IsPrefabParent: 0
@@ -27954,6 +27958,10 @@ Prefab:
     - target: {fileID: 407786, guid: 0a5f7362d5379644598bb63ddf2019c0, type: 2}
       propertyPath: m_RootOrder
       value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 120516, guid: 0a5f7362d5379644598bb63ddf2019c0, type: 2}
+      propertyPath: m_TagString
+      value: Finish
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a5f7362d5379644598bb63ddf2019c0, type: 2}

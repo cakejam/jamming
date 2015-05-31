@@ -156,6 +156,9 @@ public class platformerPlayerController : MonoBehaviour {
 		} else if (col.gameObject.CompareTag("heal")) {
 			GainHealth();
 		}
+		else if (col.gameObject.CompareTag("Finish")) {
+			Application.LoadLevel(2);
+		}
 	}
 
 	IEnumerator WaitAndRestart()
