@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1f482a9c7c56be34d910e9df1f76deb1
-timeCreated: 1432997744
+timeCreated: 1433036960
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -382,13 +382,13 @@ TextureImporter:
     - name: Floor_7
       rect:
         serializedVersion: 2
-        x: 220
+        x: 221
         y: 373
-        width: 30
-        height: 30
+        width: 29
+        height: 29
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 1, y: 1, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Floor_8
       rect:
         serializedVersion: 2
@@ -2575,10 +2575,10 @@ TextureImporter:
         x: 190
         y: 34
         width: 29
-        height: 28
+        height: 29
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
     - name: Floor_227
       rect:
         serializedVersion: 2

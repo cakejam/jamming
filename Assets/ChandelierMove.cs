@@ -15,7 +15,7 @@ public class ChandelierMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float playerX = GameObject.Find("player").transform.position.x;
-		if (startPosition.x - playerX < 10) {
+		if (startPosition.x - playerX < 5) {
 			fall = true;
 		}
 		if(fall) {
