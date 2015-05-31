@@ -1119,7 +1119,7 @@ AudioSource:
   Mute: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: .537578583
   MaxDistance: 25
   Pan2D: 0
   rolloffMode: 2
@@ -1738,7 +1738,7 @@ AudioSource:
   Mute: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: .649681091
   MaxDistance: 25
   Pan2D: 0
   rolloffMode: 2
@@ -4151,11 +4151,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 459362, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: .899999976
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 459362, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .800000012
+      value: .699999988
       objectReference: {fileID: 0}
     - target: {fileID: 459362, guid: fb8a5e86a12ac478eb4556232ae3709c, type: 2}
       propertyPath: m_LocalPosition.z
