@@ -34,7 +34,7 @@ public class OutroScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.R)) {
+		if (Input.GetKeyDown (KeyCode.R) || Input.GetButtonDown("Restart")) {
 			Application.LoadLevel(0);
 		}
 	}
@@ -62,7 +62,7 @@ public class OutroScript : MonoBehaviour {
 			
 		}
 		if (showLastMessage){
-			message = "I'm never drinking again.\n (Press R to restart)";
+			message = "I'm never drinking again.\n (Press R or X to restart)";
 			GUI.Label(textArea, message, style);
 		}
 	}
