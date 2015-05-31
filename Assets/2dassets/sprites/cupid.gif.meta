@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: 9e37de1864646f7419e0d74668ce8601
+timeCreated: 1433088381
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cupid_0
+    21300002: cupid_1
+    21300004: cupid_2
+    21300006: cupid_3
+    21300008: cupid_4
+    21300010: cupid_5
+    21300012: cupid_6
+    21300014: cupid_7
+    21300016: cupid_8
+    21300018: cupid_9
+    21300020: cupid_10
+    21300022: cupid_11
+    21300024: cupid_12
+    21300026: cupid_13
+    21300028: cupid_14
+    21300030: cupid_15
+    21300032: cupid_16
+    21300034: cupid_17
+    21300036: cupid_18
+    21300038: cupid_19
+    21300040: cupid_20
+    21300042: cupid_21
+    21300044: cupid_22
+    21300046: cupid_23
+    21300048: cupid_24
+    21300050: cupid_25
+    21300052: cupid_26
+    21300054: cupid_27
+    21300056: cupid_28
+    21300058: cupid_29
+    21300060: cupid_30
+    21300062: cupid_31
+    21300064: cupid_32
+    21300066: cupid_33
+    21300068: cupid_34
+    21300070: cupid_35
+    21300072: cupid_36
+    21300074: cupid_37
+    21300076: cupid_38
+    21300078: cupid_39
+    21300080: cupid_40
+    21300082: cupid_41
+    21300084: cupid_42
+    21300086: cupid_43
+    21300088: cupid_44
+    21300090: cupid_45
+    21300092: cupid_46
+    21300094: cupid_47
+    21300096: cupid_48
+    21300098: cupid_49
+    21300100: cupid_50
+    21300102: cupid_51
+    21300104: cupid_52
+    21300106: cupid_53
+    21300108: cupid_54
+    21300110: cupid_55
+    21300112: cupid_56
+    21300114: cupid_57
+    21300116: cupid_58
+    21300118: cupid_59
+    21300120: cupid_60
+    21300122: cupid_61
+    21300124: cupid_62
+    21300126: cupid_63
+    21300128: cupid_64
+    21300130: cupid_65
+    21300132: cupid_66
+    21300134: cupid_67
+    21300136: cupid_68
+    21300138: cupid_69
+    21300140: cupid_70
+    21300142: cupid_71
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cupid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 221
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 221
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 217
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 217
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 221
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 221
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 188
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 188
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 189
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 210
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 209
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 209
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_12
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 209
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 209
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_14
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 209
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 189
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 188
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 189
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_18
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 188
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 189
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_20
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 189
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 189
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_22
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 188
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 189
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_24
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 188
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 189
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_26
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 189
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_27
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 189
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_28
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 191
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_30
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 156
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_31
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 156
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 176
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 175
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_34
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 175
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_35
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 157
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_36
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 157
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_37
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 157
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_38
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 150
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_39
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 154
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_40
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 157
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_41
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 156
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_42
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 156
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_43
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 156
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_44
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 156
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_45
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 156
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 156
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_47
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 159
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 144
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_50
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 121
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_51
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 124
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_52
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 125
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_53
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 125
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_54
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 125
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_55
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 125
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_56
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 117
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_57
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 128
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 87
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_59
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 87
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_60
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 87
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_61
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 105
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_62
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 87
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_63
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 87
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_64
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 87
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_65
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 87
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_66
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 105
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_67
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 87
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_68
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 87
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_69
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 87
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 347
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cupid_71
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 3
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

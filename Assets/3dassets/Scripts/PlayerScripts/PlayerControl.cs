@@ -92,8 +92,14 @@ public class PlayerControl : MonoBehaviour
 	}
 
 	void OnCollisionEnter(Collision coll){
+		Debug.Log (coll.gameObject.tag);
+
 		if (coll.gameObject.CompareTag ("WayPointDoor")){
 			Application.LoadLevel(2);
+		}
+
+		if (coll.gameObject.CompareTag("ExtraLevel")){
+			Application.LoadLevel (4);
 		}
 	}
 

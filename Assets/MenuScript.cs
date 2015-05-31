@@ -36,7 +36,7 @@ public class MenuScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.S)) {
+		if (Input.anyKey) {
 			Application.LoadLevel(1);
 		}
 	}
@@ -56,7 +56,7 @@ public class MenuScript : MonoBehaviour {
 				blinkTimer = true;
 			}
 
-			message = "Press S to Start";
+			message = "Press Any Key to Start";
 			GUI.Label(textArea2, message, style2);
 		}
 		else if (blinkTimer){
