@@ -12,6 +12,7 @@ GameObject:
   - 95: {fileID: 9546430}
   - 61: {fileID: 6103530}
   - 114: {fileID: 11400242}
+  - 82: {fileID: 8218042}
   m_Layer: 8
   m_Name: lava
   m_TagString: Untagged
@@ -25,8 +26,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157280}
-  m_LocalRotation: {x: 0, y: 0, z: -.0261769518, w: .999657333}
-  m_LocalPosition: {x: -10.9695368, y: -4.65558481, z: 4.3359375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .180000007, y: -.219999999, z: 0}
   m_LocalScale: {x: 8.99221134, y: 7.64338207, z: 8.99221325}
   m_Children: []
   m_Father: {fileID: 0}
@@ -44,6 +45,75 @@ BoxCollider2D:
   m_Offset: {x: 0, y: -.0648200363}
   serializedVersion: 2
   m_Size: {x: .639999986, y: .280359924}
+--- !u!82 &8218042
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157280}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6341675044c8c4c54bce42a677ec7485, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0
+  MaxDistance: 14
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00393700786
+      value: 1.01746035
+      inSlope: -.486796677
+      outSlope: -.486796677
+      tangentMode: 0
+    - time: .996062994
+      value: .0756613687
+      inSlope: -11.8264599
+      outSlope: -11.8264599
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9546430
 Animator:
   serializedVersion: 3
@@ -69,10 +139,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 157280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7d340bfeb62748c2acfa66397f4009a, type: 3}
+  m_Script: {fileID: 11500000, guid: 240f37a9648814b7a857c5d774dba3c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 134602, guid: f2a3c3f99856c4165abff428d1c9eee3, type: 2}
+  explosionSound: {fileID: 8300000, guid: e0f89545a519643f282581fcf1aca28a, type: 3}
 --- !u!212 &21210488
 SpriteRenderer:
   m_ObjectHideFlags: 1

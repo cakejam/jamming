@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - WayPointDoor
+  - enemy
+  - heal
   layers:
   - Default
   - TransparentFX

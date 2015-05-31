@@ -10,9 +10,9 @@ public class platformerPlayerController : MonoBehaviour {
 	public int maxHealth = 3;
 	public int health = 3;
 	public float moveForce = 365f;
-	public float bounceForce = 365f;
+	public float bounceForce = 8f;
 	public float maxSpeed = 5f;
-	public float jumpForce = 100f;
+	public float jumpForce = 400f;
 	public Transform groundCheck;
 	Vector3 startPoint;
 	
@@ -21,7 +21,12 @@ public class platformerPlayerController : MonoBehaviour {
 
 	public Text healthText;
 	public GameObject explosionPrefab;
-
+	public AudioClip explosionSound;
+	public AudioClip owSound;
+	public AudioClip deathSound;
+	public AudioClip healSound;
+	public AudioClip healFx;
+	
 	// Use this for initialization
 	void Awake () 
 	{
@@ -92,10 +97,21 @@ public class platformerPlayerController : MonoBehaviour {
 	{
 		health--;
 		healthText.GetComponent<Text>().text = "Health: " + health;
+		AudioSource.PlayClipAtPoint(owSound , transform.position);
 		if (health <= 0) {
 			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
+			AudioSource.PlayClipAtPoint(explosionSound , transform.position);
+			AudioSource.PlayClipAtPoint(deathSound , transform.position);
 			GameOver();
 		}
+	}
+
+	void GainHealth()
+	{
+		health++;
+		healthText.GetComponent<Text>().text = "Health: " + health;
+		AudioSource.PlayClipAtPoint(healFx , transform.position);
+		AudioSource.PlayClipAtPoint(healSound , transform.position);
 	}
 
 	void GameOver() {
@@ -114,7 +130,10 @@ public class platformerPlayerController : MonoBehaviour {
 		else if (col.gameObject.layer == LayerMask.NameToLayer("Deadly")) {
 			Debug.Log ("Deadly!");
 			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
+			AudioSource.PlayClipAtPoint(explosionSound , transform.position);
 			GameOver();
+		} else if (col.gameObject.CompareTag("heal")) {
+			GainHealth();
 		}
 	}
 
@@ -122,7 +141,7 @@ public class platformerPlayerController : MonoBehaviour {
 	{
 		Hide ();
 		Freeze();
-		yield return new WaitForSeconds(1);
+		yield return new WaitForSeconds(4);
 		Application.LoadLevel(Application.loadedLevel);
 	}
 

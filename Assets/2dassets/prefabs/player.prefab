@@ -85,7 +85,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.5, y: -7.0999999, z: -3}
+  m_LocalPosition: {x: 97.5199966, y: -6.94000006, z: -3}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 404300}
@@ -146,7 +146,7 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173636}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4ffa561ab6f0145b0934a396f15b70bf, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: .00314407353, y: .0046979906}
@@ -197,11 +197,20 @@ MonoBehaviour:
   facingRight: 1
   jump: 0
   frozen: 0
+  maxHealth: 3
+  health: 3
   moveForce: 365
+  bounceForce: 8
   maxSpeed: 5
-  jumpForce: 400
+  jumpForce: 100
   groundCheck: {fileID: 404300}
+  healthText: {fileID: 0}
   explosionPrefab: {fileID: 134602, guid: f2a3c3f99856c4165abff428d1c9eee3, type: 2}
+  explosionSound: {fileID: 0}
+  owSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  healSound: {fileID: 0}
+  healFx: {fileID: 0}
 --- !u!124 &12453772
 Behaviour:
   m_ObjectHideFlags: 1
