@@ -90,7 +90,8 @@ public class platformerPlayerController : MonoBehaviour {
 
 	void LoseHealth()
 	{
-		health--;
+		if(health > 0)
+			health--;
 		healthText.GetComponent<Text>().text = "Health: " + health;
 		if (health <= 0) {
 			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
