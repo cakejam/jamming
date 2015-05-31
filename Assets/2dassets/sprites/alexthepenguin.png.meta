@@ -1,9 +1,24 @@
 fileFormatVersion: 2
 guid: 0e2a6c205a27444799ef946acc71bdbc
-timeCreated: 1433110068
+timeCreated: 1433110176
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: alexthepenguin_0
+    21300002: alexthepenguin_1
+    21300004: alexthepenguin_2
+    21300006: alexthepenguin_3
+    21300008: alexthepenguin_4
+    21300010: alexthepenguin_5
+    21300012: alexthepenguin_6
+    21300014: alexthepenguin_7
+    21300016: alexthepenguin_8
+    21300018: alexthepenguin_9
+    21300020: alexthepenguin_10
+    21300022: alexthepenguin_11
+    21300024: alexthepenguin_12
+    21300026: alexthepenguin_13
+    21300028: alexthepenguin_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,25 +45,175 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: alexthepenguin_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 239
+        width: 63
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 239
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 239
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 239
+        width: 63
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_4
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 239
+        width: 57
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_5
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 240
+        width: 85
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 63
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 119
+        width: 85
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 120
+        width: 85
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_9
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 119
+        width: 63
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_10
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 154
+        width: 112
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_11
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 148
+        width: 141
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 86
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 26
+        width: 141
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: alexthepenguin_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 32
+        width: 113
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
