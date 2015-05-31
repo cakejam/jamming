@@ -61,13 +61,17 @@ public class PlayerControl : MonoBehaviour
 		hFloat = Animator.StringToHash("H");
 		vFloat = Animator.StringToHash("V");
 		aimBool = Animator.StringToHash("Aim");
-		// fly
-		//flyBool = Animator.StringToHash ("Fly");
+
 		groundedBool = Animator.StringToHash("Grounded");
 		distToGround = GetComponent<Collider>().bounds.extents.y;
 		sprintFactor = sprintSpeed / runSpeed;
 
-		doorPosition = wayPointDoor.transform.position;
+		if (wayPointDoor){
+			doorPosition = wayPointDoor.transform.position;
+		}
+		//else{
+			//flyBool = Animator.StringToHash ("Fly");
+		//}
 	}
 
 	bool IsGrounded() {
@@ -76,17 +80,9 @@ public class PlayerControl : MonoBehaviour
 
 	void Update()
 	{
-		/*if ((this.transform.position.x >= doorPosition.x-5 || this.transform.position.x <= doorPosition.x+5)
-		    && (this.transform.position.y >= doorPosition.y-5 || this.transform.position.y <= doorPosition.y+5)
-		    && (this.transform.position.z >= doorPosition.z-5 || this.transform.position.z <= doorPosition.z+5)){
-
-			Debug.Log("")
-			Debug.Log ("yayayayayyayayay");
-		}*/
-
 		// fly
-		/*if(Input.GetButtonDown ("Fly"))
-			fly = !fly;*/
+		if(Input.GetButtonDown ("Fly"))
+			fly = !fly;
 		//aim = Input.GetButton("Aim");
 		h = Input.GetAxis("Horizontal");
 		v = Input.GetAxis("Vertical");

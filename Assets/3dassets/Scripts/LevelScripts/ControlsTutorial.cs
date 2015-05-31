@@ -4,6 +4,8 @@ using System.Collections;
 public class ControlsTutorial : MonoBehaviour
 {
 	private string message = "";
+	//private ArrayList<string> introMessages = new ArrayList<string>();
+	//private ArrayList<string> outroMessages = new ArrayList<string>();
 	private bool showMsg = false;
 
 	private int w = 550;
@@ -23,11 +25,17 @@ public class ControlsTutorial : MonoBehaviour
 		textColor.a = 0;
 		textArea = new Rect((Screen.width-w)/2, 0, w, h);
 
+		/*introMessages.Add("...Where am I?....");
+		introMessages.Add("I feel like shit.....");
+		introMessages.Add("Is this my house?");
+		introMessages.Add("I need to go inside and lie down");
+		outroMessages.Add(".....");
+		outroMessages.Add("I'm never drinking again.");*/
 	}
 
 	void Update()
 	{
-		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
+		/*if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
 		{
 			Screen.lockCursor = true;
 			Cursor.visible = false;
@@ -36,7 +44,7 @@ public class ControlsTutorial : MonoBehaviour
 		{
 			Screen.lockCursor = false;
 			Cursor.visible = true;
-		}
+		}*/
 	}
 
 	void OnGUI()

@@ -95,7 +95,8 @@ public class platformerPlayerController : MonoBehaviour {
 
 	void LoseHealth()
 	{
-		health--;
+		if(health > 0)
+			health--;
 		healthText.GetComponent<Text>().text = "Health: " + health;
 		AudioSource.PlayClipAtPoint(owSound , transform.position);
 		if (health <= 0) {
