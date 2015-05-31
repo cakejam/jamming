@@ -35,6 +35,7 @@ public class platformerPlayerController : MonoBehaviour {
 		rb2d = GetComponent<Rigidbody2D>();
 		startPoint = this.transform.position;
 		health = maxHealth;
+		healthText.GetComponent<Text>().text = "Health: " + health;
 	}
 	
 	// Update is called once per frame
