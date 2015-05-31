@@ -13,6 +13,7 @@ GameObject:
   - 61: {fileID: 6158774}
   - 114: {fileID: 11473708}
   - 50: {fileID: 5004598}
+  - 82: {fileID: 8227508}
   m_Layer: 8
   m_Name: GhostFloat2
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134050}
   m_LocalRotation: {x: .00116511632, y: .996458113, z: .00404325873, w: -.0839857236}
-  m_LocalPosition: {x: -61.9799995, y: -2.8900001, z: -.819999993}
+  m_LocalPosition: {x: -61.9800034, y: -2.8900001, z: -.819999933}
   m_LocalScale: {x: 4.44136906, y: 4.44137383, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -60,6 +61,75 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: .390000224, y: .400000006}
+--- !u!82 &8227508
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134050}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 15f1421ce0a114821bcd1eabd116da8e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0
+  MaxDistance: 26
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .830708683
+      value: 1.05238092
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .972440958
+      value: 0
+      inSlope: -.377439976
+      outSlope: -.377439976
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9531900
 Animator:
   serializedVersion: 3

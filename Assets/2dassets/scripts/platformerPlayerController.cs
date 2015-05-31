@@ -96,19 +96,21 @@ public class platformerPlayerController : MonoBehaviour {
 
 	void LoseHealth()
 	{
-		if(health > 0 && !invulnerable) {
-			health--;
-			healthText.GetComponent<Text>().text = "Health: " + health;
-			AudioSource.PlayClipAtPoint(owSound , transform.position);
-		}
+		if (!invulnerable) {
+			if(health > 0) {
+				health--;
+				healthText.GetComponent<Text>().text = "Health: " + health;
+				AudioSource.PlayClipAtPoint(owSound , transform.position);
+			}
 
-		if (health <= 0) {
-			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
-			AudioSource.PlayClipAtPoint(explosionSound, transform.position);
-			AudioSource.PlayClipAtPoint(deathSound, transform.position);
-			GameOver();
-		} else {
-			StartCoroutine(damageRecovery());
+			if (health <= 0) {
+				Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
+				AudioSource.PlayClipAtPoint(explosionSound, transform.position);
+				AudioSource.PlayClipAtPoint(deathSound, transform.position);
+				GameOver();
+			} else {
+				StartCoroutine(damageRecovery());
+			}
 		}
 	}
 
@@ -187,10 +189,12 @@ public class platformerPlayerController : MonoBehaviour {
 	void Freeze() {
 		GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 		GetComponent<Rigidbody2D>().angularVelocity = 0f;
+		invulnerable = true;
 		frozen = true;
 	}
 
 	void UnFreeze() {
 		frozen = false;
+		invulnerable = false;
 	}
 }
