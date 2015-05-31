@@ -193,7 +193,7 @@ GameObject:
   - 4: {fileID: 115163374}
   - 65: {fileID: 115163373}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: ExtraLevelCollider
   m_TagString: ExtraLevel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
