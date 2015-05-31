@@ -219,6 +219,12 @@ public class PlayerControl : MonoBehaviour
 			Repositioning();
 		}
 
+		Debug.Log (horizontal);
+		Debug.Log (vertical);
+
+		if (fly && isMoving){
+			targetDirection = new Vector3(2,1,0);
+		}
 		return targetDirection;
 	}	
 
