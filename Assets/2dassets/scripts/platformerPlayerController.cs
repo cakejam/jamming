@@ -159,7 +159,7 @@ public class platformerPlayerController : MonoBehaviour {
 			GainHealth();
 		}
 		else if (col.gameObject.CompareTag("Finish")) {
-			Application.LoadLevel(2);
+			Application.LoadLevel(3);
 		}
 	}
 
