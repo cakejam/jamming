@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour
 	public float sprintSpeed = 7.0f;
 	public float flySpeed = 5.0f;
 
-	public float turnSmoothing = 3.0f;
+	public float turnSmoothing = 1.0f;
 	public float aimTurnSmoothing = 15.0f;
 	public float speedDampTime = 0.1f;
 
