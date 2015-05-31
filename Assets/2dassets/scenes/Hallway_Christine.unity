@@ -2295,15 +2295,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 436546, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -61.9800034
+      value: -61.9799995
       objectReference: {fileID: 0}
     - target: {fileID: 436546, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.8900001
+      value: -2.6099999
       objectReference: {fileID: 0}
     - target: {fileID: 436546, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -.819999933
+      value: -.819999993
       objectReference: {fileID: 0}
     - target: {fileID: 436546, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2324,6 +2324,14 @@ Prefab:
     - target: {fileID: 436546, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6158774, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6158774, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
@@ -4246,6 +4254,23 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300452, guid: 1f482a9c7c56be34d910e9df1f76deb1, type: 3}
   m_Color: {r: .875, g: .514705896, b: .514705896, a: 1}
+--- !u!1 &272429453 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 134050, guid: 837079dad4b1f674c8aac6fc3ac1723f, type: 2}
+  m_PrefabInternal: {fileID: 129265475}
+--- !u!61 &272429461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 272429453}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: .012388966, y: -.0120979417}
+  serializedVersion: 2
+  m_Size: {x: .150877729, y: .115683444}
 --- !u!1001 &272832698
 Prefab:
   m_ObjectHideFlags: 0

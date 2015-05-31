@@ -27,7 +27,14 @@ public class platformerPlayerController : MonoBehaviour {
 	public AudioClip deathSound;
 	public AudioClip healSound;
 	public AudioClip healFx;
-	
+
+	private bool mover = false;
+	// Moving platform support 
+	private Transform activePlatform; 
+	private Vector3 activeLocalPlatformPoint; 
+	private Vector3 activeGlobalPlatformPoint; 
+	private Vector3 lastPlatformVelocity;
+
 	// Use this for initialization
 	void Awake () 
 	{
@@ -49,6 +56,14 @@ public class platformerPlayerController : MonoBehaviour {
 				Debug.Log ("jumping off " + hit.collider.name);
 				jump = true;
 			}
+		}
+		else if (mover) {
+			Debug.Log("moving!!");
+			var newGlobalPlatformPoint = activePlatform.TransformPoint(activeLocalPlatformPoint);
+			var moveDistance = (newGlobalPlatformPoint - activeGlobalPlatformPoint);
+			if (moveDistance != Vector3.zero)
+				transform.position = moveDistance;
+			lastPlatformVelocity = (newGlobalPlatformPoint - activeGlobalPlatformPoint) / Time.deltaTime;
 		}
 	}
 	
@@ -144,23 +159,24 @@ public class platformerPlayerController : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D col) {
-		if (col.gameObject.layer == LayerMask.NameToLayer("Painful")) {
+		if (col.gameObject.layer == LayerMask.NameToLayer ("Painful")) {
 			Debug.Log ("Deadly!");
 			Vector2 diff = (transform.position - col.gameObject.transform.position).normalized * bounceForce;
-			rb2d.AddForce(new Vector2(diff.x, diff.y) , ForceMode2D.Impulse);
+			rb2d.AddForce (new Vector2 (diff.x, diff.y), ForceMode2D.Impulse);
 
-			LoseHealth();
-		}
-		else if (col.gameObject.layer == LayerMask.NameToLayer("Deadly")) {
+			LoseHealth ();
+		} else if (col.gameObject.layer == LayerMask.NameToLayer ("Deadly")) {
 			Debug.Log ("Deadly!");
-			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
-			AudioSource.PlayClipAtPoint(explosionSound , transform.position);
-			GameOver();
-		} else if (col.gameObject.CompareTag("heal")) {
-			GainHealth();
-		}
-		else if (col.gameObject.CompareTag("Finish")) {
-			Application.LoadLevel(3);
+			Instantiate (explosionPrefab, this.transform.position, Quaternion.identity);
+			AudioSource.PlayClipAtPoint (explosionSound, transform.position);
+			GameOver ();
+		} else if (col.gameObject.CompareTag ("heal")) {
+			GainHealth ();
+		} else if (col.gameObject.CompareTag ("Finish")) {
+			Application.LoadLevel (3);
+		} 
+		else if (col.gameObject.CompareTag("Potato")){
+			Application.LoadLevel(4);
 		}
 	}
 
