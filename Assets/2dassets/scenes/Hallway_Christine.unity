@@ -5679,6 +5679,12 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11409810, guid: ef6e03199a24849a9a3dbb49005adf68, type: 2}
+      propertyPath: m_Text
+      value: 'Health: 6
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef6e03199a24849a9a3dbb49005adf68, type: 2}
   m_IsPrefabParent: 0
