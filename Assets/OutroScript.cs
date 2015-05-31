@@ -34,6 +34,9 @@ public class OutroScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyDown (KeyCode.R)) {
+			Application.LoadLevel(0);
+		}
 	}
 	
 	void OnGUI()
@@ -59,7 +62,7 @@ public class OutroScript : MonoBehaviour {
 			
 		}
 		if (showLastMessage){
-			message = "I'm never drinking again.";
+			message = "I'm never drinking again. (Press R to restart)";
 			GUI.Label(textArea, message, style);
 		}
 	}

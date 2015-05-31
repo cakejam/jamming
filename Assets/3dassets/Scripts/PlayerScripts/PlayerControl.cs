@@ -69,9 +69,9 @@ public class PlayerControl : MonoBehaviour
 		if (wayPointDoor){
 			doorPosition = wayPointDoor.transform.position;
 		}
-		//else{
-			//flyBool = Animator.StringToHash ("Fly");
-		//}
+		else{
+			flyBool = Animator.StringToHash ("Fly");
+		}
 	}
 
 	bool IsGrounded() {

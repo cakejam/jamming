@@ -11,3 +11,5 @@ EditorBuildSettings:
     path: Assets/3dassets/Scenes/OpeningScene.unity
   - enabled: 1
     path: Assets/2dassets/scenes/Hallway_Christine.unity
+  - enabled: 1
+    path: Assets/3dassets/Scenes/EndingScene.unity
