@@ -31,7 +31,9 @@ public class IntroScript : MonoBehaviour {
 		introMessages.Add("...Where am I?....");
 		introMessages.Add("I feel like shit.....");
 		introMessages.Add("Is this my house?");
-		introMessages.Add("I need to go inside and lie down");
+		introMessages.Add("Fuckkkkkkkk");
+
+
 	}
 	
 	// Update is called once per frame
@@ -47,7 +49,8 @@ public class IntroScript : MonoBehaviour {
 				if (introMessages.Count == 0){
 					showMessage = false;
 					showLastMessage = true;
-					message = "I need to go inside and lie down";
+					//message = "I need to go inside and lie down";
+					message = "Fuckkkkkkkk";
 				}
 				else{
 					message = (string)introMessages[0];
@@ -61,7 +64,8 @@ public class IntroScript : MonoBehaviour {
 
 		}
 		if (showLastMessage){
-			message = "I need to go inside and lie down";
+			//message = "I need to go inside and lie down";
+			message = "Fuckkkkkkkk";
 			GUI.Label(textArea, message, style);
 		}
 	}
