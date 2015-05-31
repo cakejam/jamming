@@ -7,6 +7,7 @@ public class platformerPlayerController : MonoBehaviour {
 	[HideInInspector] public bool facingRight = true;
 	[HideInInspector] public bool jump = false;
 	[HideInInspector] public bool frozen = false;
+	public bool invulnerable = false;
 	public int maxHealth = 3;
 	public int health = 3;
 	public float moveForce = 365f;
@@ -95,24 +96,43 @@ public class platformerPlayerController : MonoBehaviour {
 
 	void LoseHealth()
 	{
-		if(health > 0)
+		if(health > 0 && !invulnerable) {
 			health--;
-		healthText.GetComponent<Text>().text = "Health: " + health;
-		AudioSource.PlayClipAtPoint(owSound , transform.position);
+			healthText.GetComponent<Text>().text = "Health: " + health;
+			AudioSource.PlayClipAtPoint(owSound , transform.position);
+		}
+
 		if (health <= 0) {
 			Instantiate(explosionPrefab, this.transform.position, Quaternion.identity);
-			AudioSource.PlayClipAtPoint(explosionSound , transform.position);
-			AudioSource.PlayClipAtPoint(deathSound , transform.position);
+			AudioSource.PlayClipAtPoint(explosionSound, transform.position);
+			AudioSource.PlayClipAtPoint(deathSound, transform.position);
 			GameOver();
+		} else {
+			StartCoroutine(damageRecovery());
 		}
 	}
 
+	IEnumerator damageRecovery() 
+	{
+		invulnerable = true;
+		for (int i = 0; i < 7; i++)
+		{
+			GetComponent<Renderer>().enabled = false;
+			yield return new WaitForSeconds(.1f);
+			GetComponent<Renderer>().enabled = true;
+			yield return new WaitForSeconds(.1f);
+		}
+		invulnerable = false;
+	}
+	
 	void GainHealth()
 	{
-		health++;
-		healthText.GetComponent<Text>().text = "Health: " + health;
-		AudioSource.PlayClipAtPoint(healFx , transform.position);
-		AudioSource.PlayClipAtPoint(healSound , transform.position);
+		if (health < maxHealth) {
+			health++;
+			healthText.GetComponent<Text>().text = "Health: " + health;
+			AudioSource.PlayClipAtPoint(healSound, transform.position);
+		}
+		AudioSource.PlayClipAtPoint(healFx, transform.position);
 	}
 
 	void GameOver() {

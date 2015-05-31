@@ -85,7 +85,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.5199966, y: -6.94000006, z: -3}
+  m_LocalPosition: {x: -40.8699989, y: -7.01999998, z: -3}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 404300}
@@ -202,15 +202,15 @@ MonoBehaviour:
   moveForce: 365
   bounceForce: 8
   maxSpeed: 5
-  jumpForce: 100
+  jumpForce: 400
   groundCheck: {fileID: 404300}
   healthText: {fileID: 0}
   explosionPrefab: {fileID: 134602, guid: f2a3c3f99856c4165abff428d1c9eee3, type: 2}
-  explosionSound: {fileID: 0}
-  owSound: {fileID: 0}
-  deathSound: {fileID: 0}
-  healSound: {fileID: 0}
-  healFx: {fileID: 0}
+  explosionSound: {fileID: 8300000, guid: e0f89545a519643f282581fcf1aca28a, type: 3}
+  owSound: {fileID: 8300000, guid: 4cf26424a28ab49e48ef9de9853cf564, type: 3}
+  deathSound: {fileID: 8300000, guid: f06baded19b50418a96726b024f0c5d0, type: 3}
+  healSound: {fileID: 8300000, guid: 98af1ed1695f84b39856690d1e7917f0, type: 3}
+  healFx: {fileID: 8300000, guid: fee38c1aeee9a443cbb414cf0c661f93, type: 3}
 --- !u!124 &12453772
 Behaviour:
   m_ObjectHideFlags: 1
