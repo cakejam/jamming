@@ -62,7 +62,7 @@ public class OutroScript : MonoBehaviour {
 			
 		}
 		if (showLastMessage){
-			message = "I'm never drinking again. (Press R to restart)";
+			message = "I'm never drinking again.\n (Press R to restart)";
 			GUI.Label(textArea, message, style);
 		}
 	}
